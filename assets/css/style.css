@@ -1,0 +1,185 @@
+*{
+    /* border:1px dotted; */
+}
+
+body {
+    background-image: url(../images/floral.png);
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777777;
+}
+
+header{
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    overflow:auto;
+    margin-bottom:20px;
+    width:100%;
+
+}
+
+.container{
+    width:960px;
+    margin:0 auto;
+    background: #ffffff;
+}
+
+.h1{
+    margin:0;
+    background: #4aaaa5;
+    color: #ffffff;
+    width:33.3%;
+    text-align:center;
+    font-size:32px;
+    padding:25px 0;
+    float:left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.headerlinks {
+    float:right;
+    font-size:18px;
+    text-align: right;
+    width:60%;
+    color:#777777;
+    padding-top:10px;
+    line-height:1.5;
+}
+
+.v-rule {
+    /* border-right-color: red; */
+    /* padding-right: 4px; */
+    /* border-right-width: 3px; */
+    /* border-style: solid; */
+    font-weight: bolder;
+    color: red;
+}
+.headash {
+    float:left;
+}
+
+.bump {
+    width:20%;
+}
+
+a:link {
+    color: #777777; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color:#777777;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.h1-2 {
+    font-size:32px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 4px solid #dddddd;
+    padding-bottom:20px;
+
+
+}
+
+.bodypadding{
+    padding:20px;
+    padding-left:40px;
+}
+
+.profile_img{
+    float:left;
+    padding-right:20px;
+}
+
+p{
+    line-height:2;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+
+.btext{
+    background: #4aaaa5;
+    color: #ffffff;
+    padding:10px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+}
+
+.bdiv{
+    width:200px;
+    height:150px;
+}
+
+.fleft{
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.funtainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    background:#4aaaa5;
+    color:#ffffff;
+}
+
+.bobbom {
+    position: absolute;
+    bottom:5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bg {
+	background:#4aaaa5;
+    padding:10px;
+    width:180px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.port{
+    height:600px;
+}
+
+.btn{
+    background:#4aaaa5;
+    color:white;
+    padding:5px;
+    width:50px;
+}
